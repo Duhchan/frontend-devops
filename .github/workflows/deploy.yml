@@ -27,6 +27,7 @@ jobs:
         
     - name: 4. Desplegar en Kubernetes
       run: |
+        kubectl apply -f k8s/namespace.yaml
         kubectl apply -f k8s/frontend-deployment.yaml
         kubectl apply -f k8s/frontend-service.yaml
         kubectl apply -f k8s/frontend-hpa.yaml
