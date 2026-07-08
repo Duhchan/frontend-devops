@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 456290617175.dkr.ecr.us-east-1.amazonaws.com/evaluacion-front # Colocar uri de tu imagen en ECR
+          image: 927634771668.dkr.ecr.us-east-1.amazonaws.com/examen-front # Colocar uri de tu imagen en ECR
           ports:
             - containerPort: 80
 
